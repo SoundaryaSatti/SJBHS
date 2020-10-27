@@ -41,8 +41,6 @@ public class CalenderActivity extends AppCompatActivity {
         calendarArrayList = new ArrayList<>();
         getCalender();
     }
-    
-
     public void getCalender() {
 
         String date = "2019-10-26 22:00:51";
