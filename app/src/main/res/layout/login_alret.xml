@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="10dp"
+    android:orientation="vertical">
+
+     <!--<androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_image"
+        app:cardCornerRadius="10dp"
+        app:contentPadding="1dp">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_image"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_parent_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/frankruhllibre_medium"
+                android:gravity="center|start"
+                android:padding="15dp"
+                android:text="Parent Login"
+                android:textColor="@color/colorBlue"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_faculty_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/frankruhllibre_medium"
+                android:gravity="center|start"
+                android:padding="15dp"
+                android:text="Faculty Login"
+                android:textColor="@color/colorBlue"
+                android:textSize="20dp">
+
+
+
+            </TextView>
+            <!--<Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:text="Login">
+
+            </Button>
+        -->
+        </LinearLayout>
+    </LinearLayout>

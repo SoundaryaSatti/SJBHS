@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp" />
+
+<Button
+    android:id="@+id/angry_btn"
+    android:textColor="#FFFFFF"
+    android:textSize="14sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30sp"
+    android:background="@drawable/button_shape"
+    android:shadowColor="#FAFAFC"
+    android:text="Share"
+    android:textAppearance="@style/CustomTextAppearance"
+    android:shadowDx="0"
+    android:fontFamily="@font/frankruhllibre_medium"
+    android:shadowDy="0"
+    android:shadowRadius="5"
+    />
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:orientation="vertical"
+    tools:context="com.integro.sibhs.activities.NewsDetailsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+<!--
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp">
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.github.demono.AutoScrollViewPager
+                android:id="@+id/vpNewsImage"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/frankruhllibre_medium"
+                android:gravity="end|center"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textAppearance="@style/CustomTextAppearance"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/frankruhllibre_medium"
+                android:gravity="start|center"
+                android:padding="10sp"
+                android:text="Title"
+                android:textAppearance="@style/CustomTextAppearance"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/amiri_regular"
+                android:gravity="center|start"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:text="Description"
+                android:textAppearance="@style/CustomTextAppearance"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvShare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/frankruhllibre_medium"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="Share"
+                android:elevation="2dp"
+                android:textAppearance="@style/CustomTextAppearance"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_shape"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+<!--
+       </androidx.cardview.widget.CardView>
+-->
+    </ScrollView>
+
+
+</LinearLayout>
