@@ -41,7 +41,6 @@ public class CalenderActivity extends AppCompatActivity {
         calendarArrayList = new ArrayList<>();
         getCalender();
     }
-
     
 
     public void getCalender() {
